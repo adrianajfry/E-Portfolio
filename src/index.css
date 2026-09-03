@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  background: #12151C;
+  color: #EDEEF2;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+::selection {
+  background: #D4AF6A;
+  color: #12151C;
+}
+
+/* Medallion rail: bronze -> silver -> gold, the site's signature element */
+.rail {
+  position: relative;
+}
+
+.rail-line {
+  background: linear-gradient(180deg, #B87333 0%, #C7CDD6 50%, #D4AF6A 100%);
+}
+
+.node-dot {
+  transition: transform 0.35s cubic-bezier(0.16, 1, 0.3, 1), box-shadow 0.35s ease;
+}
+
+.node-dot.active {
+  transform: scale(1.4);
+}
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+::-webkit-scrollbar-track {
+  background: #12151C;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A3040;
+  border-radius: 8px;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
