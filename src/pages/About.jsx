@@ -69,6 +69,11 @@ const certificates = [
     image: 'https://images.credly.com/size/340x340/images/70eb1e3f-d4de-4377-a062-b20fb29594ea/azure-data-fundamentals-600x600.png',
     url: 'https://www.credly.com/badges/452618ac-3077-4d89-bb89-e2fa94d50398/linked_in_profile',
   },
+  {
+    name: 'Coursera Foundations: Data, Data, Everywhere',
+    image: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/92/d0d1ee4a844037be9a2d349ee5f59d/GoogleG_FullColor_RGB.png?auto=format%2Ccompress&dpr=1&w=80&h=80',
+    url: 'https://coursera.org/share/cb04ae2bed4b6718ff74b4a9ca3365b0',
+  },
 ]
 
 const events = [
