@@ -18,14 +18,14 @@ const academicProjects = [
     tag: 'PySpark · Azure Databricks · Power BI',
     text: 'End-to-end medallion-architecture pipeline analyzing COVID-19 vaccination disparity, from raw ingestion through a curated gold table to Power BI dashboards.',
     color: '#B87333',
-    url: 'https://github.com/adrianajfry/SECPH_DATA_ENGINEERING/tree/f9b0a501620404f8bcf55f957a811c807f22d6db/YEAR%203/SEMESTER%202/SECP3843%20-%20%20SPECIAL%20TOPIC%20IN%20DATA%20ENGINEERING/INDIVIDUAL%20PROJECT%20(MOCK%20FYP)',
+    url: 'https://github.com/adrianajfry/SECPH_DATA_ENGINEERING/tree/main/YEAR%203/SEMESTER%202/SECP3843%20-%20%20SPECIAL%20TOPIC%20IN%20DATA%20ENGINEERING/INDIVIDUAL%20PROJECT%20(MOCK%20FYP)',
   },
   {
     title: 'Resto Order — Restaurant Waiter Order System',
     tag: 'Flutter · Dart · Supabase',
     text: 'A CRUD-based mobile app for waiters to manage restaurant menus and track customer orders in real time, featuring a full order lifecycle (Pending → Preparing → Served → Paid) backed by a PostgreSQL database via Supabase.',
     color: '#D2691E',
-    url: 'https://github.com/adrianajfry/SECPH_DATA_ENGINEERING/tree/f9b0a501620404f8bcf55f957a811c807f22d6db/YEAR%203/SEMESTER%202/SECP3106%20-%20APPLICATION%20DEVELOPMENT/INDIVIDUAL%20PROJECT%20TASK',
+    url: 'https://github.com/adrianajfry/SECPH_DATA_ENGINEERING/tree/main/YEAR%203/SEMESTER%202/SECP3106%20-%20APPLICATION%20DEVELOPMENT/INDIVIDUAL%20PROJECT%20TASK',
   },
   {
   title: 'Real-Time Sentiment Analysis Pipeline',
