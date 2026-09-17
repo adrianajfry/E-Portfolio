@@ -70,9 +70,14 @@ const certificates = [
     url: 'https://www.credly.com/badges/452618ac-3077-4d89-bb89-e2fa94d50398/linked_in_profile',
   },
   {
-    name: 'Coursera Foundations: Data, Data, Everywhere',
+    name: 'Coursera: Foundations of Data, Data, Everywhere',
     image: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/92/d0d1ee4a844037be9a2d349ee5f59d/GoogleG_FullColor_RGB.png?auto=format%2Ccompress&dpr=1&w=80&h=80',
     url: 'https://coursera.org/share/cb04ae2bed4b6718ff74b4a9ca3365b0',
+  },
+  {
+    name: 'Coursera: Ask Questions to Make Data-Driven Decisions',
+    image: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/92/d0d1ee4a844037be9a2d349ee5f59d/GoogleG_FullColor_RGB.png?auto=format%2Ccompress&dpr=1&w=80&h=80',
+    url: 'https://coursera.org/share/a54cdac6942fe72b447a4f0de20593ed',
   },
 ]
 
@@ -133,7 +138,7 @@ export default function About() {
             className="flex flex-wrap items-center gap-2"
           >
             <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-silver border border-white/15 rounded-full px-2.5 py-1">
-              21 years old
+              22 years old
             </span>
             <span className="font-mono text-[11px] uppercase tracking-[0.2em] text-gold border border-gold/30 rounded-full px-2.5 py-1">
               Aspiring Data Analyst
@@ -404,6 +409,36 @@ export default function About() {
           </motion.div>
         ))}
       </div>
+
+      {/* Resume */}
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        viewport={{ once: true, margin: '-60px' }}
+        transition={{ duration: 0.5 }}
+        className="mt-16 bg-panel border border-white/5 rounded-2xl p-8 flex flex-col sm:flex-row items-start sm:items-center justify-between gap-5"
+      >
+        <div>
+          <p className="font-mono text-[11px] uppercase tracking-[0.2em] text-bronze mb-2">
+            resume
+          </p>
+          <h3 className="font-display text-xl text-ink mb-1.5">
+            Want the full picture in one document?
+          </h3>
+          <p className="text-sm text-muted max-w-md">
+            This link always points to my latest resume — no outdated PDF downloads.
+          </p>
+        </div>
+
+        <a
+          href="https://docs.google.com/document/d/1ZKl5iPfxrTdvA3fOuF4MOLiyTV47RwgRGW3NhowknJI/edit?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+          className="flex-shrink-0 px-6 py-3 bg-gold text-obsidian font-mono text-xs uppercase tracking-widest rounded-full hover:brightness-110 transition"
+        >
+          View Resume
+        </a>
+      </motion.div>
     </PageTransition>
   )
 }
