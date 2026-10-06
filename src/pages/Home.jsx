@@ -84,8 +84,8 @@ export default function Home() {
               className="relative text-gold text-left"
               style={{ textShadow: '0 4px 24px rgba(0,0,0,0.25)' }}
             >
-              <span className="block font-brush text-4xl md:text-6xl -rotate-3">adriana's Digital</span>
-              <span className="block font-brush text-8xl md:text-[10rem] -mt-3 md:-mt-5 -rotate-2">Portfolio</span>
+              <span className="block font-curly text-4xl md:text-6xl -rotate-3">adriana's Digital</span>
+              <span className="block font-curly text-8xl md:text-[10rem] -mt-3 md:-mt-5 -rotate-2">Portfolio</span>
             </motion.h1>
           </div>
 

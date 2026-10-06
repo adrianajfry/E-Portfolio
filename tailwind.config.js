@@ -21,6 +21,7 @@ export default {
         mono: ['"JetBrains Mono"', 'monospace'],
         script: ['"Caveat"', 'cursive'],
         bubbly: ['"Alex Brush"', 'cursive'],
+        curly: ['"Pacifico"', 'cursive'],
       },
     },
   },
