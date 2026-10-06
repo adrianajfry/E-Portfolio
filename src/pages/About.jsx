@@ -70,14 +70,9 @@ const certificates = [
     url: 'https://www.credly.com/badges/452618ac-3077-4d89-bb89-e2fa94d50398/linked_in_profile',
   },
   {
-    name: 'Coursera: Foundations of Data, Data, Everywhere',
+    name: 'Coursera: Data Analytics',
     image: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/92/d0d1ee4a844037be9a2d349ee5f59d/GoogleG_FullColor_RGB.png?auto=format%2Ccompress&dpr=1&w=80&h=80',
     url: 'https://coursera.org/share/cb04ae2bed4b6718ff74b4a9ca3365b0',
-  },
-  {
-    name: 'Coursera: Ask Questions to Make Data-Driven Decisions',
-    image: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/92/d0d1ee4a844037be9a2d349ee5f59d/GoogleG_FullColor_RGB.png?auto=format%2Ccompress&dpr=1&w=80&h=80',
-    url: 'https://coursera.org/share/a54cdac6942fe72b447a4f0de20593ed',
   },
 ]
 

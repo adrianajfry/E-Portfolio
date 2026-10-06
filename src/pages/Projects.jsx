@@ -74,11 +74,11 @@ const academicProjects = [
 // TODO: replace this placeholder with your actual self-learning projects
 const selfLearningProjects = [
   {
-    title: 'Project Title Here',
-    tag: 'Tech · Stack · Here',
-    text: 'Short description of what this self-learning project does and what you learned or built while making it.',
+    title: 'CikNor YTF Order System',
+    tag: 'JavaScript · CSS · Here',
+    text: 'A self-project of order system for CikNor YTF Shop.',
     color: '#B87333',
-    url: 'https://github.com/adrianajfry/your-repo-here',
+    url: 'https://github.com/adrianajfry/YTF_CikNor_Order_System.git',
   },
 ]
 
