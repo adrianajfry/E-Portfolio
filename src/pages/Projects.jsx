@@ -76,7 +76,7 @@ const selfLearningProjects = [
   {
     title: 'CikNor YTF Order System',
     tag: 'JavaScript · CSS · Here',
-    text: 'A self-project of order system for CikNor YTF Shop.',
+    text: 'A self-project of order system for CikNor YTF Shop with live-monitoring.',
     color: '#B87333',
     url: 'https://github.com/adrianajfry/YTF_CikNor_Order_System.git',
   },

@@ -121,7 +121,7 @@ export default function Home() {
             </span>
 
             <a
-              href="https://www.linkedin.com/in/adrianajefri"
+              href="https://www.linkedin.com/in/adriana-jefri-86797a24b"
               target="_blank"
               rel="noreferrer"
               className="w-9 h-9 rounded-full bg-white/15 backdrop-blur-md border border-white/25 flex items-center justify-center text-white hover:bg-white/25 hover:scale-110 transition"
