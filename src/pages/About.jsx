@@ -72,7 +72,7 @@ const certificates = [
   {
     name: 'Google Data Analytics Professional Certificate',
     image: 'https://d3njjcbhbojbot.cloudfront.net/api/utilities/v1/imageproxy/http://coursera-university-assets.s3.amazonaws.com/92/d0d1ee4a844037be9a2d349ee5f59d/GoogleG_FullColor_RGB.png?auto=format%2Ccompress&dpr=1&w=80&h=80',
-    url: 'https://coursera.org/share/cb04ae2bed4b6718ff74b4a9ca3365b0',
+    url: 'https://coursera.org/share/5a5ea7f7ce6948226d374464a686e71f',
   },
 ]
 
